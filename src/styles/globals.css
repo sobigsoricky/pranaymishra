@@ -472,9 +472,16 @@ footer ul li {
 }
 
 .resource-card {
+  min-height: 288px;
   border-radius: 1rem;
   height: 100%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#resource-card1 {
+  background-image: url("/images/a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .resource-card .MuiCardContent-root {

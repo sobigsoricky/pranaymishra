@@ -10,14 +10,23 @@ const Resource = () => {
                     <Grid container justifyContent="center">
                         <Grid item xs={12} sm={11}>
                             <Box py={5}>
-                                <Typography variant="h1" align='center' className='m-0'>Practical SEO Guides<br /><span className='text--teritory'>Now for FREE!</span></Typography>
+                                <Typography variant="h1" align='center' className='m-0'>RankFast SEO Resource Hub<br /><span className='text--teritory'>Available to you absolutely FREE!</span></Typography>
                                 <Typography className='text-white tagline' align='center'>Carefully made, non-generic SEO resources.</Typography>
                                 <Box>
                                     <Box className="non-g-resource">
                                         <Grid container spacing={{ xs: 2, sm: 5 }}>
                                             <Grid item xs={12} sm={6} md={4}>
                                                 <Card className='resource-card bg--secondary' id="resource-card1">
-                                                    <CardContent className=''></CardContent>
+                                                    <CardContent className=''>
+                                                        <Box>
+                                                            <Typography className='text--primary mb-2'>2024</Typography>
+                                                            <Typography className='text-white'>193+ Latest SEO Statistics</Typography>
+                                                            <Typography className='resource-card-title text-white'>SEO Statistic<br />Database</Typography>
+                                                            <Box mt={1}>
+                                                                <img src="/images/logo.png" className='img-fluid logo' />
+                                                            </Box>
+                                                        </Box>
+                                                    </CardContent>
                                                 </Card>
                                             </Grid>
                                             <Grid item xs={12} sm={6} md={4}>
@@ -91,13 +100,14 @@ const Resource = () => {
                             <Box py={5}>
                                 <Grid container spacing={{ xs: 2, sm: 4 }} alignItems="center">
                                     <Grid item xs={12} sm={6}>
-                                        <Typography variant='h2' className='text-white sectiontitle' align='center'>Unlike Any Resource<br />Hub Across Internet</Typography>
+                                        <Typography variant='h2' className='text-white sectiontitle'>Collection Of Resources<br />That Stands Out From The Rest</Typography>
                                     </Grid>
                                     <Grid item xs={12} sm={6}>
                                         <Card className='acrossCard'>
                                             <CardContent>
-                                                <Typography className='across-card-title'>Carefully made, Non-generic Content</Typography>
-                                                <Typography className='text-white'>Our library is filled with carefully made, high-quality content to help you sail through SEO.</Typography>
+                                                <Typography className='across-card-title'>Carefully Crafted, Non-Generic Content</Typography>
+                                                <Typography className='text-white'>Our vast collection of content in our library is designed to help you navigate the complex field of search engine optimization.</Typography>
+                                                <Typography className='text-white'>Our resources are suitable for users of all skill levels, from novices to seasoned pros.</Typography>
                                                 <Box>
                                                     <List>
                                                         <ListItem>
@@ -129,11 +139,11 @@ const Resource = () => {
                                     <Grid item xs={12} sm={6}>
                                         <Card className='acrossCard'>
                                             <CardContent>
-                                                <Typography className='across-card-title'>Practical and Actionable Stuff</Typography>
-                                                <Typography className='text-white mb-4'>No one likes a boring lecture.</Typography>
-                                                <Typography className='text-white mb-4'>Neither do we.</Typography>
-                                                <Typography className='text-white mb-4'>Therefore, all of our Guides, PDFs, and Spreadsheet tools are highly practical and actionable in nature.</Typography>
-                                                <Typography className='text-white mb-4'>(For spreadsheet tools, you can make their copies and use them for your own projects)</Typography>
+                                                <Typography className='across-card-title'>Actionable Stuff Only</Typography>
+                                                <Typography className='text-white mb-4'>Say NO to boring lectures! </Typography>
+                                                <Typography className='text-white mb-4'>We emphasize the importance of practicality and actionability.</Typography>
+                                                <Typography className='text-white mb-4'>Our spreadsheet tools, PDFs, and manuals are all designed to be extremely useful so you can start using the ideas right away.</Typography>
+                                                <Typography className='text-white mb-4'>You are welcome to copy spreadsheet tools and include them in your own work.</Typography>
                                             </CardContent>
                                         </Card>
                                     </Grid>
@@ -141,10 +151,10 @@ const Resource = () => {
                                     <Grid item xs={12} sm={6}>
                                         <Card className='acrossCard'>
                                             <CardContent>
-                                                <Typography className='across-card-title'>FREE for you, Forever</Typography>
-                                                <Typography className='text-white mb-4'>These resources are our way of contributing back to the SEO community.</Typography>
-                                                <Typography className='text-white mb-4'>All of them are completely free to use, download, and share.</Typography>
-                                                <Typography className='text-white mb-4'>Feel free to recommend them to your peers. And share them to your online audiences.</Typography>
+                                                <Typography className='across-card-title'>FREE for You, Forever</Typography>
+                                                <Typography className='text-white mb-4'>We are dedicated to serving the SEO community and are providing these resources at NO CHARGE.</Typography>
+                                                <Typography className='text-white mb-4'>Don't forget to share these with your peers after downloading and using them at your convenience.</Typography>
+                                                <Typography className='text-white mb-4'>Come along while we improve the state of SEO expertise.</Typography>
                                             </CardContent>
                                         </Card>
                                     </Grid>
